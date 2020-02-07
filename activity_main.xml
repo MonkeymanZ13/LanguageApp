@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/category_italian"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/LanguageCategory"
+            android:id="@+id/italian"
+            android:text="@string/category_italian"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/category_german"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/LanguageCategory"
+            android:id="@+id/german"
+            android:text="@string/category_german"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/category_czech"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/LanguageCategory"
+            android:id="@+id/czech"
+            android:text="@string/category_czech"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/category_dutch"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/LanguageCategory"
+            android:id="@+id/dutch"
+            android:text="@string/category_dutch"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/category_french"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/LanguageCategory"
+            android:id="@+id/french"
+            android:text="@string/category_french"/>
+
+    </FrameLayout>
+
+</LinearLayout>
